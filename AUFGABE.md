@@ -5,6 +5,7 @@ Man kann zu einer Route mit einer Detailansicht der Items wechseln, indem man au
 Wie dir vielleicht auffällt, ist der Code nicht besonders schön und einige Features fehlen noch, deshalb:
 
 **Zeitvorgabe: Bitte plane nicht mehr als 2 Stunden ein.**
+
 *Falls du nicht fertig wirst, kannst du uns gern im Folgegespräch sagen, was deine nächsten Schritte gewesen wären.*
 
 Dokumentation zum JSON-Server https://github.com/typicode/json-server
