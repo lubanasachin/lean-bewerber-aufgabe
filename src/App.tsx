@@ -4,6 +4,8 @@ import { HashRouter, Route } from "react-router-dom";
 import AppBar from "@material-ui/core/AppBar";
 
 import DashboardPage from "./pages/DashboardPage";
+import DetailsPage from "./pages/DetailsPage";
+
 import { Toolbar, Typography } from "@material-ui/core";
 
 class App extends Component<{}> {
@@ -21,6 +23,7 @@ class App extends Component<{}> {
             </Toolbar>
           </AppBar>
           <Route exact path="/" component={DashboardPage} />
+          <Route exact path="/details/:id" component={DetailsPage} />
         </HashRouter>
       </ThemeProvider>
     );
